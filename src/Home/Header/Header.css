@@ -1,0 +1,14 @@
+.header-icon {
+    cursor: pointer;
+    
+ 
+}
+
+
+
+@media screen and (min-width: 767px){
+    .header-icon_bar {
+        display: none;
+    }
+  
+}

@@ -3,19 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "debounce": "^1.2.1",
+    "firebase": "^9.0.1",
+    "firebase-tools": "^9.16.6",
     "react": "^17.0.2",
+    "react-alice-carousel": "^2.5.1",
+    "react-device-detect": "^1.17.0",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-material-ui-carousel": "^2.3.1",
+    "react-multi-carousel": "^2.6.5",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "react-slideshow-image": "^3.5.0",
+    "react-transition-group": "^4.4.2",
+    "sass": "^1.38.1",
+    "styled-components": "^5.3.1",
+    "web-vitals": "^1.1.2",
+    "yarn": "^1.22.11"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3"
   }
 }
